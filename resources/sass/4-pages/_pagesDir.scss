@@ -1,0 +1,52 @@
+//home page
+@import "home/_section-1";
+@import "home/_section-2";
+@import "home/_section-3";
+@import "home/_section-4";
+@import "home/_section-5";
+@import "home/_section-6";
+@import "home/_section-7";
+@import "home/_media-queries";
+
+//words
+@import "worlds/_arango";
+@import "worlds/_bannoo";
+@import "worlds/_chupanzi";
+@import "worlds/_devo";
+@import "worlds/_erax";
+@import "worlds/_fodo";
+@import "worlds/_worlds-media";
+
+//videos
+@import "videos/_videos";
+@import "videos/_videos-media";
+
+//graphic-novel
+@import "graphic-novel/_graphic-novel"; 
+@import "graphic-novel/_graphic-novel-media"; 
+
+//contract
+@import "contract/_contract";
+@import "contract/_contract-media";
+
+//contact us
+@import "contact/_contact";
+@import "contact/_contact-media.scss";
+
+//under construction
+@import "under-construction/_under-construction";
+@import "under-construction/_under-construction-media";
+
+//shop
+@import "shop/_shop-welcome";
+@import "shop/_shop-welcome-media";
+
+//auth
+@import "auth/_login";
+@import "auth/_register"; 
+@import "auth/_login-media";
+@import "auth/_register-media";
+
+//user
+@import "profile/_profile-setup"; 
+@import "profile/_profile-setup-media"; 

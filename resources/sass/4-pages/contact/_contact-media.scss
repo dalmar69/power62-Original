@@ -1,0 +1,164 @@
+
+@media only screen and (max-width: 870px){
+    .contact{
+        height: auto;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        .logo{
+            width: 50rem;
+        } 
+        .textarea{
+            width: 50%;
+        }
+        .submit{
+            right: 21%;
+        }
+        .col-1{
+            @include grid-column(12);
+            top: 20rem;
+        }
+        .col-2{
+            @include grid-column(12);
+            @include grid-shift(4);
+            top: -25rem;
+        }
+        .full-col{
+            @include grid-column(12); 
+            @include grid-shift(.5);
+            margin-top: 18rem;
+        } 
+    }
+} 
+@media only screen and (max-width: 554px){
+    .contact{
+        .logo{
+            width: 40rem;
+        } 
+        .col-2{
+            @include grid-shift(2.5);
+            top: -25rem;
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    .contact{
+        .label{
+            display: block;
+        }
+        .col-2{
+            @include grid-shift(1);
+            top: -35rem;
+        }
+        .textarea{
+           top: 2.5rem;
+           left: 0;
+        }
+        .submit{
+            top: 19rem;
+            left: 0;
+        }
+        .full-col{
+            @include grid-column(12); 
+            @include grid-shift(.5);
+            margin-top: 27rem;
+        } 
+    }
+}
+@media only screen and (max-width: 416px){
+    .contact{
+        .row{
+            left: -2rem;
+        }
+        .logo{
+            width: 35rem;
+        }
+        .input{
+            width: 70%;
+        } 
+        .textarea{
+            width: 70%;
+        }
+        .col-2{
+            font-size: 1.6rem;
+        }
+        .full-col{
+            font-size: 1.6rem;
+        } 
+    }
+}
+@media only screen and (max-width: 390px){
+    .contact{
+        .col-1{
+            top: 15rem;
+        }
+        .col-2{
+            top: -40rem;
+        }
+    }
+}
+@media only screen and (max-width: 354px){
+    .contact{
+        .row{
+            left: -4rem;
+        } 
+        .logo{
+            width: 30rem;
+        }
+    }
+}
+@media only screen and (max-width: 334px){
+    .contact{
+        .company-info{
+            font-size: 1.5rem;
+        }
+        .greeting{
+            font-size: 1.5rem;
+        }
+    }
+}
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }
+// @media only screen and (max-width: 1476px){
+//     .contact{
+        
+//     }
+// }

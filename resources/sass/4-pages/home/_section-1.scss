@@ -1,0 +1,44 @@
+/* ------------------------------------------------------------------- 
+ ## home content
+ ------------------------------------------------------------------- */
+.home {
+  background-image: linear-gradient(to right bottom, rgba($black, 0.2), rgba($black, 0.5)),
+                url('../images/1/hero-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 97vh;   
+
+  .trade-mark{
+    position: relative;
+    top: 2rem;
+    color: white;
+    font-size: 1.3rem;
+  }
+  .home-content {
+    position: relative;
+    height: 100%;
+    .h3 {
+        position: relative;
+        font-size: 1.6rem;
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+    &-main {
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        
+        top: 35%;
+        left: 13%;
+        // transform: translate(-45%, 10%); 
+      } 
+    &-img {
+        display: block;
+        width: 60%;
+      }
+  }
+}

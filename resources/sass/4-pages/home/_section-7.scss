@@ -1,0 +1,68 @@
+.section-7{
+    background-image: url('../images/home/section-7/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-attachment: fixed;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    &-header{
+        font-size: 4rem;
+        text-align: center; 
+        margin-bottom: 3rem;
+    } 
+
+    &-gencon-img-container{
+        @include grid-column(6);
+    }
+    &-gencon-description-container{
+        @include grid-column(6);
+    }
+    &-gencon-img{
+        width: 100%;
+    }   
+    //bottom portion of section 7
+    .col-6-of-12{
+        @include grid-column(6);
+        @include grid-container;
+        @include grid-shift(6);
+    }
+    .logo{
+        width: 100%;
+    }
+    .power-box{
+        position: relative;
+        top: -3rem;
+        width: 100%;
+    }
+    .power-box-text{
+        position: relative;
+        top: -6rem;
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    
+    .col-3-of-6{
+        @include grid-column(3 of 6);
+    }
+
+    &-btn-buyhere{
+        position: relative;
+        display: inline-block;
+        top: 1rem;
+        left: 2rem;
+        width: 30rem;
+        &-text{
+            position: absolute;
+            color: $black;
+            left: 23%;
+            top: 50%;
+            transform: translate(-30%, -70%);
+        }
+        &-img{
+            width: 20rem;
+        }
+    }
+
+}

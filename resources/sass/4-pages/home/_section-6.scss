@@ -1,0 +1,89 @@
+.section-6{
+    background-color: $section-6-bg;
+    padding: 4rem 2rem;
+    padding-bottom: 9rem;
+    position: relative;
+    .row{
+        max-width: 100%;
+    }
+    .red{
+        color: $red;
+        font-weight: 700;
+    }
+    &-header{
+        text-align: center;
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
+    &-youtube-link{
+        font-size: 2rem; 
+    }
+    &-youtube-icon{
+        position: relative;
+        font-size: 3rem;
+        color: $youtube;
+        text-shadow: none;
+        z-index: 20; 
+        //puts a white background for the youtube Icon.
+        &:before{
+            content: ' ';
+            position: absolute;
+            display: inline-block;
+            background-color: white;
+            height: 1.5rem;
+            width: 1.5rem;
+            right: 7px;
+            top: 5px;
+            z-index: -15;
+        }
+    }
+    &-col-1{
+        @include grid-column(3);
+    }
+    &-picture-group{
+        width: 100%;
+    }
+    &-col-2{
+        @include grid-column(9);
+        @include grid-container;
+    } 
+    &-description{
+        @include grid-column(7 of 9);
+        color: $white;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+        letter-spacing: 1.2px;
+        font-weight: 400;
+        position: relative;
+        z-index: 20;
+    }
+    &-figure{
+        // position: absolute;
+        // top: 8%;
+        // right: 8%;
+        z-index: 0;
+    }
+    &-main-img{
+        width: 100%;
+    }
+    .btn-position-container{
+        position: absolute;
+        display: inline-block;
+        right: 2.5%;
+        bottom: -7rem;
+    }
+    &-btn-buyhere{
+        position: relative;
+        display: inline-block;
+        &-text{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -70%);
+        }
+        &-img{
+            width: 20rem;
+        }
+    }
+}

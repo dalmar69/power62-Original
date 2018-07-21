@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    // border: 1px solid red;
+}
+//commented out to keep page from going
+//back to top...
+html,body{
+    position: relative;
+    background: rgb(255, 255, 255);
+    font-family: $lato;
+    font-size: 10px;
+    color: $main-text; 
+    height: 100%; 
+    overflow-x: hidden; 
+}
+.row{
+    position: relative;
+    max-width: 140rem;
+    margin: 0 auto;
+    // height: 100%;
+    font-size: 1.8rem;
+    @include grid-container;
+}
+
+a{
+    text-decoration: none;
+    color: $main-text;
+}
+
+//Makes Font a lot thicker
+.header-shadow{
+    text-shadow: 2px 0 0 $main-text;
+}
+
+.btn-signup{
+    position: relative;
+    display: inline-block;
+    &-link{
+        position: absolute;
+        display: inline-block;
+        color: black;
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 700;
+        // letter-spacing: .8px;
+        left: 50%;
+        top: 50%;
+        transform:translate(-25%, -25%);
+    }
+    &-img{
+        width: 20rem;
+    }
+}

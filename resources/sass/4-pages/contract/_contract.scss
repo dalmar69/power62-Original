@@ -1,0 +1,75 @@
+.contract{
+    background: $section-6-bg;
+    height: auto; 
+    padding-top: 4rem;
+    padding-bottom: 30rem;
+    color: $black;
+    .row{ 
+        max-width: 100rem;
+    }
+    .logo{
+        position: relative;
+        min-width: 30rem;
+        max-width: 60rem;
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 6rem;
+    }
+    .secondary-header{  
+        position: relative;
+        text-align: center;
+        color: $white;
+        position: relative;
+        top: -4rem;
+        left: -1%;
+    }
+    .contract-container{
+        padding: 2rem 2rem;
+        height: 55rem;
+        width: 100%;
+        background: $white;
+        margin-bottom: 2rem;
+        letter-spacing: 1.2px;
+        line-height: 2.1rem;
+        overflow-y: scroll; 
+        overflow-x: hidden;
+        .bold{
+            display: block;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+    }
+    .contract-header{
+        text-align: center;
+    }
+    .hr{
+        position: relative;
+        margin: 2rem 0;
+        left: 10%;
+        width: 80%;
+        
+    }
+    .contract-header-secondary{
+
+    }
+    .blue{
+        color: $contract-blue;
+    }
+    .checkbox{
+        background: $white;
+        cursor: pointer;
+    }
+    .submit{
+        display: inline-block;
+        position: relative;
+        top: -3px;
+        left: 27%;
+        padding: .3rem 2rem;
+        border-radius: 50px;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}

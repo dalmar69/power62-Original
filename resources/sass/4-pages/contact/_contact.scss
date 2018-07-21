@@ -1,0 +1,99 @@
+.contact{
+    position: relative;
+    background: $section-6-bg;
+    height: 100vh;
+    padding-top: 5rem;
+    color: $black;
+    
+    .logo{
+        position: relative;
+        width: 60rem;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 6rem;
+    }
+    .form-group{
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    .label{
+        display: inline-block;
+        width: 30%;
+        font-weight: 700;
+        text-transform: uppercase;
+        &-textarea{
+            font-weight: 700;
+            position: relative;
+            // top: -8rem;
+            display: inline-block;
+            width: 30%;
+            text-transform: uppercase;
+        }
+    }
+    .input{
+        background: $text-field-gray;
+        font-size: 1.8rem;
+        border: none;
+        height: 2.5rem;
+        width: 50%;
+        letter-spacing: 1.3px;
+        padding-left: 1rem;
+        
+    }
+    .textarea{
+        position: absolute;
+        font-size: 1.8rem;
+        border: none;
+        width: 125%;
+        height: 15rem; 
+        background: $text-field-gray;
+        letter-spacing: 1.3px;
+        resize: none;
+    }
+    .submit{
+        position: absolute;
+        padding: .5rem 2rem;
+        border-radius: 4rem;
+        border: none;
+        background-color: $orange;
+        top: 12rem;
+        right: -54%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .company-info{
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .spacing{
+        display: block;
+        margin-top: 2rem;
+    }
+    .greeting{
+        position: relative;
+        color: $white;
+        letter-spacing: 1.3px;
+    }
+
+
+    //grid
+    .col-1{
+        @include grid-container;
+        @include grid-column(6);
+        @include grid-shift(1);
+    }
+    .col-2{
+        @include grid-container;
+        @include grid-column(6);
+        @include grid-shift(1);
+    }
+    .full-col{
+        @include grid-container;
+        @include grid-column(10.5); 
+        @include grid-shift(.5);
+        margin-top: 15rem;
+    } 
+}

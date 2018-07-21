@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1050px){
+    .contract{
+       padding-left: 2rem;
+       padding-right: 2rem;
+    }
+}
+@media only screen and (max-width: 1012px){
+    .contract{
+        padding-bottom: 5rem;
+        &-form{
+
+        } 
+        .checkbox{
+            margin-left: 20%;
+        }
+        .submit{
+            display: block;
+            margin-top: 2rem;
+            top: none;
+            left: 50%;
+            transform: translatex(-50%);
+        } 
+    }
+}
+@media only screen and (max-width: 796px){
+    .contract{
+        .checkbox{
+            margin-left: 10%;
+        }
+    }
+}
+@media only screen and (max-width: 718px){
+    .contract{
+        .secondary-header{
+            font-size: 2rem;  
+        }
+        .checkbox{
+            margin-left: 5%;
+        }
+    }
+}
+@media only screen and (max-width: 677px){
+    .contract{
+        .checkbox-label{
+            font-size: 1.6rem;
+        }
+        .checkbox{
+            margin-left: 0%;
+        }
+    }
+}
+// @media only screen and (max-width: 1050px){
+//     .contract{
+     
+//     }
+// }
+// @media only screen and (max-width: 1050px){
+//     .contract{
+     
+//     }
+// }
+// @media only screen and (max-width: 1050px){
+//     .contract{
+     
+//     }
+// }
+// @media only screen and (max-width: 1050px){
+//     .contract{
+     
+//     }
+// }
+// @media only screen and (max-width: 1050px){
+//     .contract{
+     
+//     }
+// }
+// @media only screen and (max-width: 1050px){
+//     .contract{
+     
+//     }
+// }

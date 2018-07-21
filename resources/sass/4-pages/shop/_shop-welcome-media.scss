@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1128px){
+    .shop-welcome{
+        .col-2{
+            @include grid-shift(1);
+        }
+        .shop-link{
+            left: 25%;
+        }
+    }
+}
+@media only screen and (max-width: 892px){
+    .shop-welcome{
+        padding-top: 10vh;
+       
+       .col-1{
+            @include grid-column(12);
+            text-align: center;
+       }
+       .col-2{
+            @include grid-shift(4);
+            margin-top: 4rem;
+       }
+       .shop-link{
+            left: 30%;
+        }
+    }
+}
+@media only screen and (max-width: 748px){
+    .shop-welcome{
+        .col-2{
+            @include grid-column(12);
+            @include grid-shift(3);
+            margin-top: 4rem;
+       }
+        .shop-link{
+            left: 20%;
+        }
+    }
+}
+@media only screen and (max-width: 564px){
+    .shop-welcome{
+       .shop-header{
+           font-size: 2rem;
+       }
+       .shop-link{
+            left: 25%;
+        }
+    }
+}
+@media only screen and (max-width: 450px){
+    .shop-welcome{
+        .col-2{
+            @include grid-shift(1);
+        }
+        .shop-link{
+            left: 30%;
+        }
+    }
+}
+@media only screen and (max-width: 374px){
+    .shop-welcome{
+        .shop-header{
+            font-size: 1.6rem;
+        }
+        .col-2{
+            @include grid-shift(0);
+        }
+        .shop-link{
+            font-size: 1.6rem;
+            left: 35%;
+        }
+    }
+}
+@media only screen and (max-width: 3308px){
+    .shop-welcome{
+        .shop-link{
+            left: 40%;
+        }
+    }
+}
+@media only screen and (max-width: 1128px){
+    .shop-welcome{
+       
+    }
+}

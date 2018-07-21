@@ -1,0 +1,23 @@
+.video{
+    background-image: url('../images/1/hero-bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;   
+    padding-top: 10vh;
+    padding-bottom: 5rem;
+    text-align: center;
+
+    .header{
+        margin-bottom: 2rem;
+    }
+    
+    .iframe{
+        display: inline-block; 
+        // width="560" height="315" 
+        // width="560" height="315" 
+        // width: 100%; 
+        // height: 30vw;
+    } 
+}

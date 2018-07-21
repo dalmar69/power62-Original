@@ -1,0 +1,323 @@
+
+@media only screen and (max-width: 1476px){
+    .login{
+        .login-btn{
+            top: 220%;
+            left: 27%;
+        }
+    }
+}
+@media only screen and (max-width: 1374px){
+    .login{
+        .login-panel-container{
+            width: 75%;
+        } 
+        &-header{
+            left: 30%;
+        }
+        .forgot-link{
+            top: 0rem;
+        }
+    }
+}
+@media only screen and (max-width: 1290px){
+   .login{
+        .login-btn{
+            top: 150%;
+            left: 29%;
+        }
+        .login-btn-img{
+            width: 12rem;
+        }
+   }
+}
+@media only screen and (max-width: 1158px){
+   .login{
+        .login-panel-container{
+            width: 80%;
+        } 
+        &-header{
+            top: -6rem;
+            font-size: 2.5rem;
+            left: 30%;
+        }
+       .form-group:first-of-type{
+            margin-top: -1rem;
+       }  
+   }
+}
+
+@media only screen and (max-width: 1050px){
+    .login{
+        .login-panel-container{
+            width: 90%;
+        } 
+    }
+} 
+
+@media only screen and (max-width: 890px) {    
+    .login{
+        .links-ul{
+            position: relative;
+            top: -2rem;
+            li{
+                list-style-type: none;
+                margin-top: 2rem;
+            }
+        }
+        .login-btn{
+            top: 130%;
+            left: 26%;
+        }
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .login{
+        .login-panel-container{
+            width: 100%;
+        } 
+        .form-group:first-of-type{
+            margin-top: -1.5rem;
+        }  
+    }
+}
+@media only screen and (max-width: 768px){ 
+    .login{
+        &-header{
+            top: -8rem;
+            font-size: 2.5rem;
+        }
+       .input{
+           height: 2rem;
+       }
+        &-panel-img{
+            height: 20rem;    
+        }
+        .form-group:first-of-type{
+            margin-top: -3rem;
+        }  
+       .links-ul{
+            top: -3rem;
+            li{
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 700px){    
+    .login{
+        &-header{
+            top: -8rem;
+            left: 28%;
+            font-size: 2rem;
+        }
+        .form-group:first-of-type{
+            margin-top: -4rem;
+        }  
+        .login-btn{
+            top: 180%;
+            left: 24%;
+        }
+        .login-btn-img{
+            width: 10rem; 
+        }
+        .right-arrow{
+            width: 2rem;
+        }
+        .links-ul{
+            top: -4rem;
+            li{
+                
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 618px){
+    .login{
+        &-header{
+            top: -9rem;
+            left: 28%;
+            font-size: 1.8rem;
+        }
+        .input{
+            font-size: 1.8rem;
+            height: 1.8rem;
+        }
+        .forgot-link{
+            font-size: 1.6rem;
+        }
+        .form-group:first-of-type{
+            margin-top: -5.5rem;
+        }  
+        .links-ul{
+            font-size: 1.6rem;
+            left: -5%;
+            a{
+                top: -.5rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 576px){
+    .login{
+        &-header{
+            top: -10rem;
+            left: 28%;
+            font-size: 1.8rem;
+        }
+        .form-group:first-of-type{
+            margin-top: -6rem;
+        }  
+    }
+}
+@media only screen and (max-width: 550px){
+    .login{
+        &-header{
+            top: -11rem;
+            left: 28%;
+            font-size: 1.8rem;
+        }
+        .form-group:first-of-type{
+            margin-top: -7rem;
+        } 
+        .form-group{
+            margin-left: -4%;
+        }
+        .links-ul{
+            top: -6rem;
+        }
+        .login-btn{
+            top: 180%;
+            left: 20%;
+        }
+        .login-btn-img{
+            width: 10rem; 
+        }
+    }
+}
+@media only screen and (max-width: 484px){
+    .login{
+        .login-panel-container{
+            left: -8%;
+            width: 110%;
+        } 
+        &-header{
+            top: -11.5rem;
+            left: 26%;
+            font-size: 1.6rem;
+        }
+        .form-group:first-of-type{
+            margin-top: -7rem;
+        } 
+        .form-group{
+            margin-left: -3%;
+        }
+        .login-btn{
+            top: 200%;
+        }
+    }
+}
+@media only screen and (max-width: 414px){
+    .login{
+        .form-group{
+            top: -2rem;
+            margin-left: -4%;
+        } 
+        &-header{
+            top: -12rem;
+            left: 26%;
+            font-size: 1.6rem;
+        }
+        .forgot-link{
+            font-size: 1.3rem;
+        }
+        .login-btn{
+            top: 200%;
+            left: 20%;
+        }
+        .login-btn-img{
+            width: 9rem; 
+        }
+        .right-arrow{
+            width: 1.5rem;
+        }
+        .links-ul{
+            top: -8rem;
+            font-size: 1.2rem;
+        }
+    }
+}
+@media only screen and (max-width: 376px){
+    .login{
+        &-header{
+            top: -12.5rem;
+            left: 26%;
+            font-size: 1.3rem;
+        }
+        .form-group{
+            top: -2rem;
+            margin-left: -7%;
+        } 
+        .input{
+            width: 65%;
+        }
+        .login-btn{
+            top: 200%;
+            left: 20%;
+        }
+        .login-btn-img{
+            width: 8rem; 
+        }
+        .links-ul{
+            top: -8.5rem;
+            li{
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 354px){
+    .login{
+        &-header{
+            top: -13rem;
+        }
+        .form-group{
+            top: -3rem;
+            margin-left: -7%;
+        } 
+        .forgot-link{
+            display: inline-block;
+            margin-top: 3px;
+            width: 50%;
+        }
+        .links-ul{
+            top: -9.5rem;
+            li{
+                margin-top: 2rem;
+            }
+        }
+        .login-btn{
+            top: 140%;
+            left: 20%;
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .login{
+        &-header{
+            top: -14rem;
+            left: 23%;
+        }
+        .form-group{
+            top: -4rem;
+            margin-left: -7%;
+        } 
+    }
+}
+@media only screen and (max-width: 320px){
+    .login{
+        
+    }
+}

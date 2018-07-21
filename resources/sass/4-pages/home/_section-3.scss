@@ -1,0 +1,45 @@
+.section-3{
+    background-image: url('../images/home/section-3/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    // position: relative;
+    height: 90vh;
+    text-align: center;
+
+    padding-top: 15rem;
+
+    .row{
+        max-width: 100%;
+        height: 100%;
+    }
+    &-header{
+        font-size: 4rem;
+        letter-spacing: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    &-sub-header{
+        color: $red;
+        font-weight: 400;
+    }
+    
+    &-img-container{
+        position: relative;
+        display: block;
+        text-align: left;
+        top: 50%;   
+    }
+    &-img{
+        
+    }
+    &-link{
+        color: $black;
+        display: inline-block;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        z-index: 200;
+    }
+}
+ 

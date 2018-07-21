@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1310px){
+    .profile-setup{
+        .avatar-btn-container{
+            left: 20rem;
+        }
+    }
+}
+@media only screen and (max-width: 1288px){
+    .profile-setup{
+        .question{
+            left: -18rem;
+        }
+    }
+}
+@media only screen and (max-width: 1310px){
+    .profile-setup{
+        .avatar-btn-container{
+            left: 19rem;
+        }
+    }
+}
+@media only screen and (max-width: 1127px){
+    .profile-setup{
+        .col-1{
+            @include grid-column(12);
+        }
+        .col-2{
+            @include grid-shift(4);
+        }
+        .input{
+            width: 35rem;
+        }
+        .avatar-btn-container{
+            left: 35rem;
+        }
+        .btn-white-1{
+            left: 28rem;
+        }
+        .btn-white-2{
+            left: 28rem;
+        }
+        .input-addition{
+            padding-left: 20rem
+        }
+    }
+}
+@media only screen and (max-width: 1055px){
+    .profile-setup{
+        .avatar-btn-container{
+            left: 33%;
+        }
+    }
+}
+
+@media only screen and (max-width: 755px){
+    .profile-setup{
+        .btn-white-1{
+            width: 7rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .profile-setup{
+        .label{
+            width: 25%;
+        }
+        .avatar-btn-container{
+            left: 28%;
+        }
+        .question{
+            top: 2px;
+            left: 1rem; 
+        }
+        .col-2{
+            @include grid-shift(3.5);
+        }
+    }
+}
+@media only screen and (max-width: 560px){
+    .profile-setup{
+        .col-1{
+            @include grid-shift(0);
+        }
+        .col-2{
+            @include grid-shift(3);
+        }
+       
+    }
+}
+@media only screen and (max-width: 511px){
+    .profile-setup{
+        .avatar-group{
+            top: 2rem;
+            left: -5%;
+        }
+        .avatar-btn-container{
+            left: 5%;
+        }
+        .col-2{
+            @include grid-shift(0);
+        }
+    }
+}
+@media only screen and (max-width: 397px){
+    .profile-setup{
+        .question{
+            width: 50rem;
+        }
+        .col-2{
+            .input{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 386px){
+    .profile-setup{
+        .avatar-label{
+            top: -11rem;
+        }
+        .avatar-group{
+            
+            .power-icon-1{
+                width: 10rem;
+                cursor: pointer;
+            } 
+            .power-icon-2{
+                width: 8rem;
+                cursor: pointer;
+            }
+            .power-icon-3{
+                width: 5rem;
+                cursor: pointer;
+            }
+            
+            .px-size-184{
+                position: absolute;
+                bottom: -1.3rem;
+                left: 2rem;
+            }
+            .px-size-64{
+                position: absolute;
+                bottom: -1.3rem;
+                left: 12rem;
+            }
+            .px-size-32{
+                position: absolute;
+                bottom: -1.3rem;
+                left: 19.5rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 374px){
+    .profile-setup{
+        .input{
+            width: 28rem;
+        }
+        .upload{
+            position: absolute;
+            margin-left: 0rem;
+            top: -2rem;
+            left: 14rem; 
+        }
+        .btn-white-1{
+            left: 20rem;
+        }
+        .btn-white-2{
+            width: 3rem;
+            left: 24.5rem;
+        }
+    }
+}
+@media only screen and (max-width: 342px){
+    .profile-setup{
+        
+    }
+}
+@media only screen and (max-width: 1288px){
+    .profile-setup{
+        
+    }
+}
+@media only screen and (max-width: 1288px){
+    .profile-setup{
+        
+    }
+}

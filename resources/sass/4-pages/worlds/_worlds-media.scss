@@ -1,0 +1,133 @@
+/**ARANGO**/
+@media only screen and (max-width: 700px){
+    .arango{
+        .col-1{
+            @include grid-column(12);
+        }
+        .section-banner-imgs{
+            @include grid-shift(2);
+            .banner-card{
+                @include grid-column(8);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+
+/**BANNOO**/
+@media only screen and (max-width: 700px){
+    .bannoo{
+        .col-1{
+            @include grid-column(12);
+        }
+        .figure{
+            left: 0;
+        }
+        .section-banner-imgs{
+            @include grid-shift(-2);
+            .banner-card{
+                @include grid-column(6);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+/**CHUPANZI**/
+@media only screen and (max-width: 700px){
+    .chupanzi{
+        .col-1{
+            @include grid-column(12);
+        }
+        .figure{
+            left: 0;
+        }
+        .world-descr-container{
+            .header{
+                font-size: 5rem;
+            }
+        }
+        .section-banner-imgs{
+            @include grid-shift(2.5);
+            .banner-card{
+                @include grid-column(7);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+/**DEVO**/
+@media only screen and (max-width: 700px){
+    .devo{
+        .col-1{
+            @include grid-column(12);
+        }
+        .figure{
+            left: 0;
+        }
+        .world-descr-container{
+            .header{
+                font-size: 5rem;
+            }
+        }
+        .section-banner-imgs{
+            @include grid-shift(2.5);
+            .banner-card{
+                @include grid-column(7);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+/**ERAX**/
+@media only screen and (max-width: 700px){
+    .erax{
+        .col-1{
+            @include grid-column(12);
+        }
+        .figure{
+            left: 0;
+        }
+        .world-descr-container{
+            .header{
+                font-size: 5rem;
+            }
+        }
+        .section-banner-imgs{
+            @include grid-shift(2.5);
+            .banner-card{
+                @include grid-column(7);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+
+/**FODO**/
+@media only screen and (max-width: 700px){
+    .fodo{
+        .col-1{
+            @include grid-column(12);
+        }
+        .robot-figure{
+            top: 20rem; 
+            width: 20rem;
+        }
+        .world-descr-container{
+            .header{
+                font-size: 5rem;
+            }
+        }
+        .section-banner-imgs{
+            @include grid-shift(2.5);
+            .banner-card{
+                @include grid-column(7);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

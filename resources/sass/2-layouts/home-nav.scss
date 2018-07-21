@@ -1,0 +1,65 @@
+/* ------------------------------------------------------------------- 
+ * ## links
+ * ------------------------------------------------------------------- */
+.nav-container{
+    position: absolute;
+    width: 100vw;
+    z-index: 20;
+    top: 1rem;
+    text-align: right;
+}
+    .home-nav {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 100%;
+
+    ul,li{
+      display: inline-block;
+    }
+    a{
+        color: $white;
+        letter-spacing: 1px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover, &:focus, &:active {
+            color: #39b54a;
+        }
+    }
+
+    .navbar-links{
+        position: relative;
+        z-index: 20;      //becuase the login div gets in the way of contact us
+        left: 10%;
+        li{
+            margin-left: 2rem;
+        }
+    }
+
+    .navbar-starport_login{
+        position: relative;
+        display: inline-block;
+        &-links{
+            position: relative;
+            display: inline-block;
+            top: -2.8rem;
+            left: 42%;
+            .starport-link{ 
+                position: relative;
+                left: -.3rem; 
+            }
+            .login-link{
+                position: relative;
+                left: 130%; 
+                color: $green;
+            }
+        }
+        //set as bg image
+        &-image{
+            display: inline-block;
+            width: 35rem;
+            height: 7rem;
+        } 
+    }
+}

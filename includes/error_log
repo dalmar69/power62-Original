@@ -1,0 +1,76 @@
+[22-May-2018 23:15:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ParseWrapper::Toggle2FA() in /home/powersix/public_html/includes/ajax.php:189
+Stack trace:
+#0 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#1 {main}
+  thrown in /home/powersix/public_html/includes/ajax.php on line 189
+[22-May-2018 23:15:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ParseWrapper::Toggle2FA() in /home/powersix/public_html/includes/ajax.php:189
+Stack trace:
+#0 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#1 {main}
+  thrown in /home/powersix/public_html/includes/ajax.php on line 189
+[22-May-2018 23:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ParseWrapper::Toggle2FA() in /home/powersix/public_html/includes/ajax.php:189
+Stack trace:
+#0 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#1 {main}
+  thrown in /home/powersix/public_html/includes/ajax.php on line 189
+[22-May-2018 23:29:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:521
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(591): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(470): Parse\ParseQuery->find(false)
+#2 /home/powersix/public_html/includes/parseWrapper.php(324): Parse\ParseQuery->first()
+#3 /home/powersix/public_html/includes/ajax.php(189): ParseWrapper::Toggle2FA('false')
+#4 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#5 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 521
+[22-May-2018 23:38:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:521
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(591): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(470): Parse\ParseQuery->find(false)
+#2 /home/powersix/public_html/includes/parseWrapper.php(324): Parse\ParseQuery->first()
+#3 /home/powersix/public_html/includes/ajax.php(189): ParseWrapper::Toggle2FA('false')
+#4 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#5 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 521
+[22-May-2018 23:44:00 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(591): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(470): Parse\ParseQuery->find(false)
+#2 /home/powersix/public_html/includes/parseWrapper.php(328): Parse\ParseQuery->first()
+#3 /home/powersix/public_html/includes/ajax.php(189): ParseWrapper::Toggle2FA('false')
+#4 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#5 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[23-May-2018 00:01:28 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(591): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(470): Parse\ParseQuery->find(false)
+#2 /home/powersix/public_html/includes/parseWrapper.php(328): Parse\ParseQuery->first()
+#3 /home/powersix/public_html/includes/ajax.php(189): ParseWrapper::Toggle2FA('false')
+#4 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#5 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[23-May-2018 00:01:29 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(591): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseQuery.php(470): Parse\ParseQuery->find(false)
+#2 /home/powersix/public_html/includes/parseWrapper.php(328): Parse\ParseQuery->first()
+#3 /home/powersix/public_html/includes/ajax.php(189): ParseWrapper::Toggle2FA('false')
+#4 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#5 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[23-May-2018 00:10:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(327): Parse\ParseCloud::run('toggle2FA', Array)
+#2 /home/powersix/public_html/includes/ajax.php(189): ParseWrapper::Toggle2FA('false')
+#3 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[23-May-2018 00:13:29 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(327): Parse\ParseCloud::run('toggle2FA', Array)
+#2 /home/powersix/public_html/includes/ajax.php(189): ParseWrapper::Toggle2FA('false')
+#3 /home/powersix/public_html/includes/ajax.php(98): toggle2FA('false')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527

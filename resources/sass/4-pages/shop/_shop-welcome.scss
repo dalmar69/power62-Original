@@ -1,0 +1,47 @@
+.shop-welcome{
+    background-image: url('../images/1/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;   
+    padding-top: 30vh;
+    color: $white;
+
+    .col-1{
+        @include grid-column(6);
+    }
+    .shop-header{
+        font-size: 3rem;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+    }
+    .logo{
+        position: relative;
+        max-width: 70rem;
+        width: 100%;
+    }
+    .col-2{
+        @include grid-column(6);
+        @include grid-shift(2);
+    }
+    .item-group{
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    .power-icon{
+        width: 10rem; 
+    }
+    .shop-link{
+        position: absolute;
+        display: inline-block;
+        color: $white;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.3px;
+        top: 45%;
+        left: 20%;
+        
+    }
+}

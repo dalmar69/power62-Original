@@ -1,0 +1,68 @@
+.section-5{
+  position: relative;
+  padding-top: 8rem;
+  width: 100%;
+  background-image: url('../images/1/p5_bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $white;
+  margin-bottom: -1rem;
+  
+  .row{
+      max-width: 100%;
+  }
+  &-section-header{
+      font-size: 5rem;
+      font-family: $old-font;
+      // text-transform: uppercase;
+      letter-spacing:3px;
+      font-weight:bold;
+      text-shadow: 1px 0 0 $gray;
+      color: $gray;
+      margin-bottom: 2rem;
+  }
+  &-eranium-caption{
+      position: absolute;
+      width: 3rem;
+      color: $red;
+      left: 5%;
+      top: 15rem;
+  }
+  /******************************************/
+  //left section
+  /******************************************/
+  &-left-section{
+      @include grid-column(6.8);
+      @include grid-shift(1.8);
+      top: 5rem;
+      .p{
+          width: 85%;
+          margin-bottom: 2rem;
+          letter-spacing: 1.3px;
+      }
+  }
+  /******************************************/
+  //right section
+  /******************************************/
+  &-right-section{
+      @include grid-container;
+      @include grid-column(5);
+      @include grid-shift(1.5);     
+  }
+  &-sondoonin-logo {
+     
+  }
+  &-robot-img{
+    //   @include grid-column(12);
+      height: 80rem;
+  }
+  
+  &-step2-btn {
+      position: absolute;
+      display: inline-block;
+      width: 10rem;
+      left: 46%;
+      top: 45%;
+      z-index: 20;      
+  }
+}

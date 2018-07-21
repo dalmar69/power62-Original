@@ -1,0 +1,109 @@
+.login{
+    background-image: url('../images/auth/login/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    color: $white;
+
+    .row{
+        position: relative;
+        max-width: none;
+    }
+    .login-panel-container{
+        @include grid-container;
+        position: absolute;
+        right: 0;
+        width: 70%;
+        height: auto; 
+    }
+    &-panel-img{
+        position: relative;
+        width: 100%;
+    }
+    .form-and-links-container{
+        position: relative;
+        margin-top: -18%;
+    }
+    &-panel-form{
+        position: relative;
+        @include grid-column(6);
+        @include grid-shift(1.2);
+    }
+    &-panel-links-container{
+        position: relative;
+        @include grid-column(6);
+        @include grid-shift(1.5);
+    }
+    /***Form ***/
+    .form{
+        position: relative;
+        top: 2rem;
+        &-group{
+            position: relative;
+        }
+    }
+    
+    &-header{
+        position: absolute;
+        font-size: 3rem;
+        top: -5.5rem;
+        left: 32%;
+    }
+    .input{ 
+        background-color: $green;
+        border: none;
+        color: $white;
+        height: 2.5rem;
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+        padding-left: 1rem;
+        width: 60%; 
+        &::placeholder{
+            color: $white;
+        }
+        &[type="email"]{
+            margin-bottom: 1.5rem;
+        }
+    }
+    .forgot-link{
+        position: relative;
+        color: $white;
+        top: 2rem;
+    }
+
+    .login-btn{
+        position: absolute;
+        background: none;
+        border: none;
+        top: 260%;
+        left: 30%;
+    }
+    .login-btn-img{
+        width: 15rem;
+        &:hover{
+            cursor: pointer;
+        } 
+    }
+
+    /****Links*************/
+    .right-arrow{
+        width: 3rem;
+    }
+    .links-ul{
+        position: relative;
+        top: -1rem;
+        li{
+            list-style-type: none;
+            margin-top: 2rem;
+        }
+        a{
+            position: relative;
+            display: inline-block;
+            top: -1rem; 
+            color: $white;
+        }
+    }
+}

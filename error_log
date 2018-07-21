@@ -1,0 +1,166 @@
+[23-May-2018 00:23:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/powersix/public_html/includes/ajax.php on line 13
+[23-May-2018 00:25:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/powersix/public_html/includes/header.php on line 3
+[23-May-2018 00:25:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/powersix/public_html/includes/parseWrapper.php on line 3
+[23-May-2018 00:29:40 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(330): Parse\ParseCloud::run('toggle2FA', Array)
+#2 /home/powersix/public_html/includes/ajax.php(187): ParseWrapper::Toggle2FA('false')
+#3 /home/powersix/public_html/includes/ajax.php(96): toggle2FA('false')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[23-May-2018 00:35:55 UTC] PHP Notice:  Undefined variable: username in /home/powersix/public_html/index.php on line 17
+[23-May-2018 01:08:52 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/powersix/public_html/includes/header.php on line 3
+[23-May-2018 01:10:19 UTC] PHP Notice:  Undefined index: loggedIn in /home/powersix/public_html/includes/parseWrapper.php on line 311
+[23-May-2018 03:27:24 UTC] PHP Notice:  Undefined index: loggedIn in /home/powersix/public_html/includes/parseWrapper.php on line 311
+[23-May-2018 04:10:51 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/powersix/public_html/includes/parseWrapper.php on line 312
+[26-May-2018 17:08:00 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/powersix/public_html/includes/header.php:1) in /home/powersix/public_html/includes/parseWrapper.php on line 34
+[26-May-2018 17:08:00 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/includes/header.php:1) in /home/powersix/public_html/includes/parseWrapper.php on line 34
+[26-May-2018 17:08:33 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/powersix/public_html/includes/header.php:1) in /home/powersix/public_html/includes/parseWrapper.php on line 34
+[26-May-2018 17:08:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/includes/header.php:1) in /home/powersix/public_html/includes/parseWrapper.php on line 34
+[26-May-2018 17:08:58 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/powersix/public_html/includes/header.php:1) in /home/powersix/public_html/includes/parseWrapper.php on line 34
+[26-May-2018 17:08:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/includes/header.php:1) in /home/powersix/public_html/includes/parseWrapper.php on line 34
+[26-May-2018 17:11:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/powersix/public_html/includes/parseWrapper.php on line 34
+[27-May-2018 16:45:43 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/powersix/public_html/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 68
+[27-May-2018 16:45:43 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found in /home/powersix/public_html/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 68
+[29-May-2018 22:18:19 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/powersix/public_html/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 68
+[29-May-2018 22:18:19 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found in /home/powersix/public_html/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 68
+[29-May-2018 22:20:58 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/powersix/public_html/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 68
+[29-May-2018 22:20:58 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found in /home/powersix/public_html/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 68
+[29-May-2018 23:13:05 UTC] PHP Notice:  Undefined variable: otpURL in /home/powersix/public_html/includes/parseWrapper.php on line 162
+[29-May-2018 23:14:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(429): Parse\ParseCloud::run('getPlanetsAndCi...', Array)
+#2 /home/powersix/public_html/includes/header.php(81): ParseWrapper::GetPlanetsAndCities()
+#3 /home/powersix/public_html/index.php(4): require_once('/home/powersix/...')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[29-May-2018 23:15:27 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(429): Parse\ParseCloud::run('getPlanetsAndCi...', Array)
+#2 /home/powersix/public_html/includes/header.php(81): ParseWrapper::GetPlanetsAndCities()
+#3 /home/powersix/public_html/index.php(4): require_once('/home/powersix/...')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[29-May-2018 23:15:31 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(429): Parse\ParseCloud::run('getPlanetsAndCi...', Array)
+#2 /home/powersix/public_html/includes/header.php(81): ParseWrapper::GetPlanetsAndCities()
+#3 /home/powersix/public_html/index.php(4): require_once('/home/powersix/...')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[29-May-2018 23:15:38 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(429): Parse\ParseCloud::run('getPlanetsAndCi...', Array)
+#2 /home/powersix/public_html/includes/header.php(81): ParseWrapper::GetPlanetsAndCities()
+#3 /home/powersix/public_html/index.php(4): require_once('/home/powersix/...')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[29-May-2018 23:15:58 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(429): Parse\ParseCloud::run('getPlanetsAndCi...', Array)
+#2 /home/powersix/public_html/includes/header.php(81): ParseWrapper::GetPlanetsAndCities()
+#3 /home/powersix/public_html/index.php(4): require_once('/home/powersix/...')
+#4 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[30-May-2018 00:16:48 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/powersix/public_html/includes/header.php on line 26
+[30-May-2018 02:35:38 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type __PHP_Incomplete_Class as array in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php:527
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php(28): Parse\ParseUser::getCurrentUser()
+#1 /home/powersix/public_html/includes/parseWrapper.php(481): Parse\ParseCloud::run('getChaptersAndP...', Array)
+#2 /home/powersix/public_html/admin.php(50): ParseWrapper::GetChaptersAndPageNames()
+#3 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 527
+[30-May-2018 02:52:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/admin.php on line 51
+[30-May-2018 03:07:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/admin.php on line 51
+[30-May-2018 03:09:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/admin.php on line 51
+[30-May-2018 03:10:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/admin.php on line 51
+[30-May-2018 03:16:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/adminHeader.php on line 27
+[31-May-2018 03:38:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/header.php on line 79
+[31-May-2018 03:38:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/adminHeader.php on line 27
+[31-May-2018 03:38:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/header.php on line 79
+[31-May-2018 03:43:34 UTC] PHP Notice:  Undefined index: result in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseCloud.php on line 39
+[31-May-2018 03:43:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/adminHeader.php on line 27
+[31-May-2018 03:48:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/adminHeader.php on line 27
+[31-May-2018 03:51:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/adminHeader.php on line 27
+[31-May-2018 03:53:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/adminHeader.php on line 28
+[31-May-2018 03:59:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/powersix/public_html/includes/adminHeader.php on line 36
+[31-May-2018 04:15:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[31-May-2018 04:15:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[31-May-2018 04:16:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[31-May-2018 04:16:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[31-May-2018 04:16:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[31-May-2018 04:17:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[31-May-2018 04:17:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[01-Jun-2018 02:55:44 UTC] PHP Notice:  Undefined index: otpURL in /home/powersix/public_html/settings.php on line 49
+[01-Jun-2018 02:55:44 UTC] PHP Notice:  Undefined index: otpEnabled in /home/powersix/public_html/settings.php on line 62
+[01-Jun-2018 02:55:51 UTC] PHP Notice:  Undefined index: otpURL in /home/powersix/public_html/settings.php on line 49
+[01-Jun-2018 02:55:51 UTC] PHP Notice:  Undefined index: otpEnabled in /home/powersix/public_html/settings.php on line 62
+[01-Jun-2018 03:04:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[01-Jun-2018 03:04:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[01-Jun-2018 03:04:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[01-Jun-2018 03:05:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[01-Jun-2018 03:06:51 UTC] PHP Notice:  Undefined variable: _SESSION in /home/powersix/public_html/2FA.php on line 5
+[01-Jun-2018 03:06:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/powersix/public_html/2FA.php:5) in /home/powersix/public_html/includes/parseWrapper.php on line 18
+[01-Jun-2018 04:07:16 UTC] PHP Notice:  Undefined index: file in /home/powersix/public_html/includes/upload.php on line 36
+[01-Jun-2018 04:07:16 UTC] PHP Notice:  Undefined index: file in /home/powersix/public_html/includes/upload.php on line 43
+[01-Jun-2018 04:07:16 UTC] PHP Notice:  Undefined index: file in /home/powersix/public_html/includes/upload.php on line 43
+[01-Jun-2018 22:39:33 UTC] PHP Notice:  Undefined index: user in /home/powersix/public_html/includes/upload.php on line 8
+[01-Jun-2018 22:50:21 UTC] PHP Notice:  Undefined index: file in /home/powersix/public_html/includes/upload.php on line 39
+[01-Jun-2018 22:50:21 UTC] PHP Notice:  Undefined index: fileData in /home/powersix/public_html/includes/upload.php on line 47
+[01-Jun-2018 22:50:21 UTC] PHP Notice:  Undefined index: fileData in /home/powersix/public_html/includes/upload.php on line 47
+[01-Jun-2018 22:59:06 UTC] PHP Warning:  move_uploaded_file(files/REV 13 EXT. OMEGA SECT TUNNEL.jpg): failed to open stream: No such file or directory in /home/powersix/public_html/includes/upload.php on line 47
+[01-Jun-2018 22:59:06 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpB23Wdw' to 'files/REV 13 EXT. OMEGA SECT TUNNEL.jpg' in /home/powersix/public_html/includes/upload.php on line 47
+[01-Jun-2018 23:23:36 UTC] PHP Fatal error:  Uncaught Exception: Missing a valid server url. You must call ParseClient::setServerURL('https://your.parse-server.com', '/parse')  before making any requests. in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseClient.php:685
+Stack trace:
+#0 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseClient.php(513): Parse\ParseClient::assertServerInitialized()
+#1 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseFile.php(233): Parse\ParseClient::_request('POST', 'files/REV 13 EX...', NULL, '\xFF\xD8\xFF\xE1\x123Exif\x00\x00MM\x00...', false, false, 'image/jpeg')
+#2 /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseFile.php(204): Parse\ParseFile->upload(false)
+#3 /home/powersix/public_html/includes/parseWrapper.php(504): Parse\ParseFile->save()
+#4 /home/powersix/public_html/includes/upload.php(45): ParseWrapper::CreatePage('/tmp/phpG7682c', 'REV 13 EXT. OME...', 'Chapter 1', '1', 'testing')
+#5 {main}
+  thrown in /home/powersix/public_html/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 685
+[01-Jun-2018 23:42:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Parse\ParseObject::getURL() in /home/powersix/public_html/includes/parseWrapper.php:520
+Stack trace:
+#0 /home/powersix/public_html/includes/upload.php(47): ParseWrapper::CreatePage('/tmp/phpaZbvsp', '1.jpg', 'Chapter 1', '1', 'testing')
+#1 {main}
+  thrown in /home/powersix/public_html/includes/parseWrapper.php on line 520
+[03-Jun-2018 16:58:33 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/powersix/public_html/novel.php on line 48
+[03-Jun-2018 17:01:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/powersix/public_html/novel.php on line 50
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: desc in /home/powersix/public_html/novel.php on line 52
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: url in /home/powersix/public_html/novel.php on line 52
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: desc in /home/powersix/public_html/novel.php on line 53
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: url in /home/powersix/public_html/novel.php on line 53
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: desc in /home/powersix/public_html/novel.php on line 52
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: url in /home/powersix/public_html/novel.php on line 52
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: desc in /home/powersix/public_html/novel.php on line 53
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: url in /home/powersix/public_html/novel.php on line 53
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: desc in /home/powersix/public_html/novel.php on line 52
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: url in /home/powersix/public_html/novel.php on line 52
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: desc in /home/powersix/public_html/novel.php on line 53
+[03-Jun-2018 17:01:33 UTC] PHP Notice:  Undefined variable: url in /home/powersix/public_html/novel.php on line 53
+[03-Jun-2018 17:42:46 UTC] PHP Warning:  imagejpeg(/images/thumbnails/): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:42:47 UTC] PHP Warning:  imagejpeg(/images/thumbnails/testing): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:42:47 UTC] PHP Warning:  imagejpeg(/images/thumbnails/): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:44:29 UTC] PHP Warning:  imagejpeg(/images/thumbnails/): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:44:29 UTC] PHP Warning:  imagejpeg(/images/thumbnails/testing): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:44:30 UTC] PHP Warning:  imagejpeg(/images/thumbnails/): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:46:03 UTC] PHP Warning:  imagejpeg(/images/thumbnails/.jpg): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:46:03 UTC] PHP Warning:  imagejpeg(/images/thumbnails/testing.jpg): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 17:46:03 UTC] PHP Warning:  imagejpeg(/images/thumbnails/.jpg): failed to open stream: No such file or directory in /home/powersix/public_html/includes/utility.php on line 27
+[03-Jun-2018 18:05:44 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/powersix/public_html/novel.php on line 65
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[03-Jun-2018 18:35:26 UTC] PHP Notice:  Array to string conversion in /home/powersix/public_html/novel.php on line 68
+[04-Jun-2018 00:11:11 UTC] PHP Notice:  Undefined index: otpURL in /home/powersix/public_html/settings.php on line 49
+[04-Jun-2018 00:11:11 UTC] PHP Notice:  Undefined index: otpEnabled in /home/powersix/public_html/settings.php on line 62
